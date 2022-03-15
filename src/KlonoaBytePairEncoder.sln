@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KlonoaBytePairEncoder", "KlonoaBytePairEncoder.csproj", "{683AA506-D1EE-4871-ADB5-BEAD539B5F63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{C0E6D75F-CC0C-41D1-AEC4-F4630E0E73E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySerializer", "..\submodules\BinarySerializer\src\BinarySerializer.csproj", "{9EC77356-89C3-45B4-80EC-3C614116097B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySerializer.Klonoa", "..\submodules\BinarySerializer.Klonoa\src\BinarySerializer.Klonoa\BinarySerializer.Klonoa.csproj", "{4F67417F-1000-43AE-91BF-969AE6D3787E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683AA506-D1EE-4871-ADB5-BEAD539B5F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683AA506-D1EE-4871-ADB5-BEAD539B5F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683AA506-D1EE-4871-ADB5-BEAD539B5F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683AA506-D1EE-4871-ADB5-BEAD539B5F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC77356-89C3-45B4-80EC-3C614116097B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC77356-89C3-45B4-80EC-3C614116097B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC77356-89C3-45B4-80EC-3C614116097B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC77356-89C3-45B4-80EC-3C614116097B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F67417F-1000-43AE-91BF-969AE6D3787E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F67417F-1000-43AE-91BF-969AE6D3787E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F67417F-1000-43AE-91BF-969AE6D3787E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F67417F-1000-43AE-91BF-969AE6D3787E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EC77356-89C3-45B4-80EC-3C614116097B} = {C0E6D75F-CC0C-41D1-AEC4-F4630E0E73E9}
+		{4F67417F-1000-43AE-91BF-969AE6D3787E} = {C0E6D75F-CC0C-41D1-AEC4-F4630E0E73E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2FF5333-A758-47A2-A8C9-730C170BFCDA}
+	EndGlobalSection
+EndGlobal
